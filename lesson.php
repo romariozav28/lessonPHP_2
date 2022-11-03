@@ -13,7 +13,7 @@ $secret = mt_rand(1000, 9999);
 echonl('Done!');
 
 $saved = file_put_contents('secret.txt', $secret);
-if ($saved == false) {
+if ($saved === false) {
     error_log ('Failed to save to "secret.txt".');
 }
 
