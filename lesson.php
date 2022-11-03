@@ -2,8 +2,8 @@
 
 require 'lib.php';
 
-echonl('--== Bulls and Cows ==--');
-echonl('------------------------');
+echonl('--=== Bulls and Cows ===--');
+echonl('--------------------------');
 echonl('');
 
 echo 'Generating a random number .... ';
